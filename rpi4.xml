@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote fetch="https://github.com" name="origin"/>
+    <remote fetch="git://git.yoctoproject.org/" name="yoctoprj"/>
+
+    <default remote="origin" revision="master" sync-j="2"/>
+
+    <project path="poky" name="yoctoproject/poky" revision="dunfell"/>
+    <project path="meta-openembedded" name="openembedded/meta-openembedded" revision="dunfell"/>
+    <project path="meta-virtualization" name="meta-virtualization" remote="yoctoprj" revision="dunfell"/>
+    <project path="meta-raspberrypi" name="agherzan/meta-raspberrypi" revision="dunfell"/>
+</manifest>
