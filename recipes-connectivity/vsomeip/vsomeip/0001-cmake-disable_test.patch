@@ -1,0 +1,16 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ab399a6..0d7c4fd 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -656,9 +656,9 @@ add_subdirectory( examples EXCLUDE_FROM_ALL )
+ 
+ ##############################################################################
+ # add test directory
+-enable_testing()
++# enable_testing()
+ 
+-add_subdirectory( test EXCLUDE_FROM_ALL )
++# add_subdirectory( test EXCLUDE_FROM_ALL )
+ 
+ if (${CMAKE_SYSTEM_NAME} MATCHES "QNX")
+     install(DIRECTORY ${PROJECT_BINARY_DIR}/test/
